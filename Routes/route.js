@@ -153,7 +153,7 @@ Product.find({})
     }
     else{
         res.status(202)
-        res.send("No Recors Found");
+        res.send("No Records Found");
     }
 })
 .catch(err=>{
